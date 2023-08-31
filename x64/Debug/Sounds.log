@@ -1,0 +1,199 @@
+﻿  Sounds.cpp
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FactoryReader.hpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FactoryReader.hpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(35,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(73,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(84,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(99,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(110,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(143,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(173,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(222,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(259,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Effect.hpp(47,25): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Effect.hpp(46,1): message : while compiling class template member function 'T Effect<T,Normalizator<T>>::operator [](int) const'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(30,70): message : see reference to class template instantiation 'Effect<int,Normalizator<int>>' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(194,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(178,1): message : while compiling class template member function 'void Playlist<int>::writeToFile(void) const'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(251,23): message : see reference to function template instantiation 'void Playlist<int>::writeToFile(void) const' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(249,26): message : see reference to class template instantiation 'Playlist<int>' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(250,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(236,1): message : while compiling class template member function 'void Playlist<int>::play(const char *) const'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(253,16): message : see reference to function template instantiation 'void Playlist<int>::play(const char *) const' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\ISamples.hpp(99,25): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\ISamples.hpp(98,1): message : while compiling class template member function 'T ISamples<T>::operator [](int) const'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sequence.hpp(35,11): message : see reference to function template instantiation 'T ISamples<T>::operator [](int) const' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sequence.hpp(23,80): message : while compiling class template member function 'Sequence<int>::Sequence(const Sound<int> *const *,int,T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(168,23): message : see reference to function template instantiation 'Sequence<int>::Sequence(const Sound<int> *const *,int,T)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(168,42): message : see reference to class template instantiation 'Sequence<int>' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sequence.hpp(88,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sequence.hpp(73,1): message : while compiling class template member function 'const T *Sequence<T>::generateSamples(const Sound<T> *const *,unsigned int) const'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sequence.hpp(64,22): message : see reference to function template instantiation 'const T *Sequence<T>::generateSamples(const Sound<T> *const *,unsigned int) const' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sequence.hpp(42,1): message : while compiling class template member function 'void Sequence<int>::setSamplesLength(const Sound<int> *const *,unsigned int)'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sequence.hpp(28,18): message : see reference to function template instantiation 'void Sequence<int>::setSamplesLength(const Sound<int> *const *,unsigned int)' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FileSound.hpp(53,22): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FileSound.hpp(50,1): message : while compiling class template member function 'unsigned int FileSound<int>::readSamplesLengthFromFile(const char *,std::ifstream &) const'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FileSound.hpp(43,25): message : see reference to function template instantiation 'unsigned int FileSound<int>::readSamplesLengthFromFile(const char *,std::ifstream &) const' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FileSound.hpp(42,1): message : while compiling class template member function 'void FileSound<int>::setSamplesLength(const char *,std::ifstream &)'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FileSound.hpp(34,18): message : see reference to function template instantiation 'void FileSound<int>::setSamplesLength(const char *,std::ifstream &)' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FileSound.hpp(28,56): message : while compiling class template member function 'FileSound<int>::FileSound(const char *,T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(25,24): message : see reference to function template instantiation 'FileSound<int>::FileSound(const char *,T)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(25,44): message : see reference to class template instantiation 'FileSound<int>' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Normalizator.hpp(51,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Normalizator.hpp(44,1): message : while compiling class template member function 'T Normalizator<T>::getMaxSample(const Sound<T> *)'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Normalizator.hpp(37,14): message : see reference to function template instantiation 'T Normalizator<T>::getMaxSample(const Sound<T> *)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Normalizator.hpp(64,1): message : while compiling class template member function 'T Normalizator<T>::operator ()(T,int) const'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Effect.hpp(52,22): message : see reference to function template instantiation 'T Normalizator<T>::operator ()(T,int) const' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Normalizator.hpp(28,1): message : while compiling class template member function 'Normalizator<int>::Normalizator(const Sound<int> *,T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(27,32): message : see reference to function template instantiation 'Normalizator<int>::Normalizator(const Sound<int> *,T)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(27,42): message : see reference to class template instantiation 'Normalizator<int>' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(91,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(82,1): message : while compiling class template member function 'const T *Mix<T>::generateSamples(const Sound<T> *const *,unsigned int) const'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(73,22): message : see reference to function template instantiation 'const T *Mix<T>::generateSamples(const Sound<T> *const *,unsigned int) const' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(72,1): message : while compiling class template member function 'void Mix<int>::setSamples(const Sound<int> *const *,unsigned int)'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(33,12): message : see reference to function template instantiation 'void Mix<int>::setSamples(const Sound<int> *const *,unsigned int)' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(27,70): message : while compiling class template member function 'Mix<int>::Mix(const Sound<int> *const *,int,T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(45,19): message : see reference to function template instantiation 'Mix<int>::Mix(const Sound<int> *const *,int,T)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(45,33): message : see reference to class template instantiation 'Mix<int>' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(139,19): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(136,1): message : while compiling class template member function 'void Playlist<int>::addSound(Sound<int> *)'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(165,11): message : see reference to function template instantiation 'void Playlist<int>::addSound(Sound<int> *)' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(125,1): message : while compiling class template member function 'void Playlist<int>::initiazizeSongs(void)'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(53,17): message : see reference to function template instantiation 'void Playlist<int>::initiazizeSongs(void)' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Playlist.hpp(49,45): message : while compiling class template member function 'Playlist<int>::Playlist(const char *)'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Sounds.cpp(249,17): message : see reference to function template instantiation 'Playlist<int>::Playlist(const char *)' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(108,39): warning C4101: 'exc': unreferenced local variable
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(99,1): message : while compiling class template member function 'T Mix<T>::calculateAverageSample(const Sound<T> *const *,int,unsigned int) const'
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(91,28): message : see reference to function template instantiation 'T Mix<T>::calculateAverageSample(const Sound<T> *const *,int,unsigned int) const' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(54,1): message : while compiling class template member function 'unsigned int Mix<int>::getLongestSoundSamplesLength(const Sound<int> *const *,unsigned int) const'
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Mix.hpp(47,37): message : see reference to function template instantiation 'unsigned int Mix<int>::getLongestSoundSamplesLength(const Sound<int> *const *,unsigned int) const' being compiled
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\VolumeIncreaser.hpp(16,17): warning C4244: 'return': conversion from 'float' to 'U', possible loss of data
+          with
+          [
+              U=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\VolumeIncreaser.hpp(15,1): message : while compiling class template member function 'U VolumeIncreaser<U>::operator ()(U,unsigned int) const'
+          with
+          [
+              U=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Effect.hpp(52,22): message : see reference to function template instantiation 'U VolumeIncreaser<U>::operator ()(U,unsigned int) const' being compiled
+          with
+          [
+              U=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FactoryReader.hpp(176,1): message : see reference to class template instantiation 'VolumeIncreaser<T>' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FadeIn.hpp(21,18): warning C4244: 'return': conversion from 'float' to 'U', possible loss of data
+          with
+          [
+              U=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FadeIn.hpp(18,1): message : while compiling class template member function 'U FadeIn<U>::operator ()(U,unsigned int) const'
+          with
+          [
+              U=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\Effect.hpp(52,22): message : see reference to function template instantiation 'U FadeIn<U>::operator ()(U,unsigned int) const' being compiled
+          with
+          [
+              U=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FactoryReader.hpp(146,1): message : see reference to class template instantiation 'FadeIn<T>' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\Sounds\FadeIn.hpp(24,17): warning C4244: 'return': conversion from 'float' to 'U', possible loss of data
+          with
+          [
+              U=int
+          ]
+  Sounds.vcxproj -> C:\Users\PETAR\Desktop\C++ FMI\OOP\SoundsSecond\Sounds\x64\Debug\Sounds.exe
